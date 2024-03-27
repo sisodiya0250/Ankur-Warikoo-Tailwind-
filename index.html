@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Ankur-Warikoo (Index)</title>
+    <style>
+        
+        
+        .slick-slide{
+            margin:10px;
+        }
+        .slick-prev, .slick-next{
+            width: 40px;;
+            height: 40px;;
+            background:black; 
+            border-radius: 20px;
+            position: absolute;
+            z-index: 8999;;
+        }
+        .slick-prev::before, .slick-next::before{
+            color: white!important;
+            opacity: 1!important;
+        }
+        .carousel{
+            position: relative!important;
+        }
+        .slick-prev{
+            position: absolute;
+            top: 48%;;
+            left:35px;
+        }
+        .slick-next{
+            top: 48%;;
+            position: absolute;
+            right: 35px;
+        }    
+    </style>
+    
+</head>
+<body>
+    
+    
+    <main>
+        <div class="relative top-banner max-w-[100%] bg-[url('images/DSC00977-scaled-1.jpg')] bg-cover bg-no-repeat bg-[center_top_-0rem] py-[380px]">
+            
+            <div class="overlay w-[100%] h-[100%] absolute top-0 left-0 bg-[rgba(0,0,0,.4)]">
+                <nav class="bg-black border-b-2 border-zinc-400 py-1 fixed top-0 w-screen z-50">
+                    <div class="auto-container max-w-[1170px] mx-auto md:flex grid grid-cols-1 md:grid-cols-2 items-center justify-between">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/Logo_White_Vector.png" class="w-[120px]" alt=""></a>
+                        </div>
+                        
+                        <div class="menus">
+                            <i class="fa-solid fa-bars indexToggle text-[28px] font-extrabold text-white block md:hidden absolute top-[26px] right-4"></i>
+                            <ul class=" pb-5 text-[16px] capitalize font-bold absolute top-[82px] left-0 right-0 md:static border-t-[5px] border-blue-600 md:border-0 text-white md:flex flex-col md:flex-row text-center scale-y-0 md:scale-100 origin-top duration-300 bg-gray-900 md:bg-transparent w-[80%] md:w-full mx-auto h-auto md:h-auto">
+                                <li class="text-start group pt-5 mx-3"><a href="#">courses</a>
+                                    <ul class="text-start uppercase text-[14px] md:absolute top-[105%] left-0 w-[200px] md:scale-y-0 md:bg-zinc-900 border-t-[3px] border-yellow-400 md:border-t-[3px] md:border-blue-400 group-hover:scale-y-100 duration-300 origin-top p-4">
+                                        <li class="my-3 md:ms-0 ms-8"><a href="#">all courses</a></li>
+                                        <li class="my-3 md:ms-0 ms-8"><a href="#">webveda login</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li class="text-start group pt-5 relative mx-3"><a href="#">content</a>
+                                    <ul class="text-start uppercase text-[14px] md:absolute top-[162%] left-0 w-[200px] md:scale-y-0 md:bg-zinc-900 border-t-[3px] border-yellow-400 md:border-t-[3px] md:border-blue-400 group-hover:scale-y-100 duration-300 origin-top p-4">
+                                        <li class="my-3 md:ms-0 ms-8"><a href="#">newsletter</a></li>
+                                        <li class="my-3 md:ms-0 ms-8"><a href="#">twitter threads</a></li>
+                                        <li class="my-3 md:ms-0 ms-8"><a href="#">e-books</a></li>
+                                        <li class="my-3 md:ms-0 ms-8"><a href="#">videos</a></li>
+                                        <li class="my-3 md:ms-0 ms-8"><a href="#">podcast</a></li>
+                                        <li class="my-3 md:ms-0 ms-8"><a href="#">quotes</a></li>
+                                        <li class="my-3 md:ms-0 ms-8"><a href="#">blog</a></li>
+                                        <li class="my-3 md:ms-0 ms-8"><a href="#">mobile wallpapers</a></li>
+                                    </ul>
+                                </li>
+                                
+                                
+                                <li class="text-start group pt-5 relative mx-3"><a href="#">books</a>
+                                    <ul class="text-start uppercase text-[14px] md:absolute top-[162%] left-0 w-[200px] md:scale-y-0 md:bg-zinc-900 border-t-[3px] border-yellow-400 md:border-t-[3px] md:border-blue-400 group-hover:scale-y-100 duration-300 origin-top p-4">
+                                        <li class="my-3 md:ms-0 ms-8"><a href="#">get epic shit</a></li>
+                                        <li class="my-3 md:ms-0 ms-8"><a href="#">epic shit done</a></li>
+                                        <li class="my-3 md:ms-0 ms-8"><a href="#">make epic money</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <li class="text-start mx-3 pt-5"><a href="#">epiCrew</a></li>
+                                <li class="text-start mx-3 pt-5"><a href="#">public speaking</a></li>
+                                <li class="text-start mx-3 pt-5"><a href="#">contact</a></li>
+                                <li class="text-start mx-3 pt-5"><a href="https://ankurwarikoo.com" target="_blank">about</a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </nav>
+                
+                <div class="banner-text text-white max-w-[1170px] mx-auto pt-[220px] md:py-[280px] text-start ps-5">
+                    <h3 class="text-4xl md:text-6xl font-medium">awareness is</h3>
+                    <h1 class="text-6xl md:text-8xl mb-2">everything</h1>
+                    <p class="text-[18px] md:text-2xl font-semibold md:font-normal">Make sure all the choices you make in life come from a point<br> of awareness and not ignorance.</p>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <section class="featured-div py-10 bg-[#edededde] static z-0">
+            <div class="max-w-[1170px] mx-auto">
+                <h4 class="text-center font-extrabold uppercase text-zinc-600 mb-5">as featured on</h4>
+                <div class="w-[100%] feature-brands grid md:grid-cols-3 lg:grid-cols-6 grid-cols-2 justify-center text-center md:justify-between ps-5 sm:ps-20 lg:ps-5 xl:ps-0">
+                    <img src="images/logo-1.webp" class="w-[140px] h-[35px] brightness-125 contrast-0 saturate-0 blur-0 hue-rotate-0 my-3 lg:my-0">
+                    <img src="images/imageedit_3_8408235035.webp" class="w-[140px] h-[35px] brightness-125 contrast-200 saturate-0 blur-0 hue-rotate-0 my-3 lg:my-0">
+                    <img src="images/moneycontrol-logo-freelogovectors.net_.webp" class="w-[140px] h-[35px] brightness-125 contrast-100 saturate-0 blur-0 hue-rotate-0 my-3 lg:my-0">
+                    <img src="images/The_Economic_Times_logo.svg.webp" class="w-[140px] h-[35px] brightness-125 contrast-0 saturate-0 blur-0 hue-rotate-0 my-3 lg:my-0">
+                    <img src="images/Mint_newspaper_logo.svg.webp" class="w-[140px] h-[35px] brightness-125 contrast-50 saturate-0 blur-0 hue-rotate-0 my-3 lg:my-0">
+                    <img src="images/NDTV_logo.svg (1).webp" class="w-[140px] h-[35px] brightness-125 contrast-0 saturate-0 blur-0 hue-rotate-0 my-3 lg:my-0">
+                    
+                </div>
+            </div>
+        </section>
+        
+        <section class="row3 text-center text-zinc-800 py-[25px] md:py-[75px]">
+            <div class="auto-container max-w-[1170px] mx-auto">
+                <h2 class="text-5xl font-bold">ankur <span class="capitalize">warokoo</span></h2>
+                <p class="text-3xl font-normal my-5">warikoo is an Internet Entrepreneur based out of India and is one of India’s top content creators. He is also a bestselling author and conducts courses online as an educator. His aim through his content is to make sure all the choices you make in life come from a point of awareness and not ignorance.​</p>
+                <img src="images/Logo_Black_Vector.webp" class="w-[300px] mx-auto" alt="">
+                <div class="info-cards grid md:grid-cols-2 gap-5 lg:grid-cols-4 grid-cols-1 px-2 md:px-4 2xl:px-0">
+                    <div class="card-box p-10 bg-gray-200 rounded-md hover:scale-105 duration-500">
+                        <div class="icon"><i class="fa-solid fa-briefcase text-6xl"></i></div>
+                        <h3 class="my-2 text-2xl font-bold capitalize">entrepreneur</h3>
+                        <p class="text-[18px]">warikoo has been an entrepreneur since 2008, was the founding CEO of Groupon India and cofounded nearbuy.com
+                            He is currently working on an education startup.
+                        </p>
+                    </div>
+                    
+                    <div class="card-box p-10 bg-gray-200 rounded-md hover:scale-105 duration-500">
+                        <div class="icon"><i class="fa-solid fa-book-open-reader text-6xl"></i></div>
+                        <h3 class="my-2 text-2xl font-bold capitalize">content writer</h3>
+                        <p class="text-[18px]">warikoo has been creating content since 2005 and has over 10Mn+ followers across all popular social media platforms</p>
+                    </div>
+                    
+                    <div class="card-box p-10 bg-gray-200 rounded-md hover:scale-105 duration-500">
+                        <div class="icon"><i class="fa-solid fa-pen-nib text-6xl"></i></div>
+                        <h3 class="my-2 text-2xl font-bold capitalize">author</h3>
+                        <p class="text-[18px]">His first book DO EPIC SHIT went on to hit #1 in India. His second book GET EPIC SHIT DONE also hit #1 in India. He is already working on his third book on money.</p>
+                    </div>
+                    
+                    <div class="card-box p-10 bg-gray-200 rounded-md hover:scale-105 duration-500">
+                        <div class="icon"><i class="fa-solid fa-users-viewfinder text-6xl"></i></div>
+                        <h3 class="my-2 text-2xl font-bold capitalize">investor</h3>
+                        <p class="text-[18px]">warikoo is an active angel investor in 30+ companies and loves to spend time with first-time entrepreneurs mentoring them.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+        </section>
+        
+        <section class="find-warikoo bg-blue-700 md:py-14 py-10 text-center text-white">
+            <div class="auto-container max-w-[1170px] mx-auto">
+                <h3 class="text-3xl md:text-4xl font-bold capitalize">find warikoo on</h3>
+                <p class="mt-5 text-[18px]">ankur warikoo has a strong community of 10Mn+ followers across all popular social media.</p>
+                <div class="social-cards grid grid-cols-3  lg:grid-cols-6 text-center justify-between items-center mt-10 md:mt-16 gap-5">
+                    <div class="social-card">
+                        <i class="fa-brands fa-youtube sm:text-5xl text-3xl"></i>
+                        <h4 class="sm:text-3xl text-1xl font-bold capitalize mt-4">youtube</h4>
+                    </div>
+                    
+                    <div class="social-card">
+                        <i class="fa-brands fa-instagram sm:text-5xl text-3xl"></i>
+                        <h4 class="sm:text-3xl text-1xl font-bold capitalize mt-4">instagram</h4>
+                    </div>
+                    
+                    <div class="social-card">
+                        <i class="fa-brands fa-twitter sm:text-5xl text-3xl"></i>
+                        <h4 class="sm:text-3xl text-1xl font-bold capitalize mt-4">twitter</h4>
+                    </div>
+                    
+                    <div class="social-card">
+                        <i class="fa-brands fa-spotify sm:text-5xl text-3xl"></i>
+                        <h4 class="sm:text-3xl text-1xl font-bold capitalize mt-4">spotify</h4>
+                    </div>
+                    
+                    <div class="social-card">
+                        <i class="fa-brands fa-linkedin sm:text-5xl text-3xl"></i>
+                        <h4 class="sm:text-3xl text-1xl font-bold capitalize mt-4">linkedIn</h4>
+                    </div>
+                    
+                    <div class="social-card">
+                        <i class="fa-brands fa-facebook sm:text-5xl text-3xl"></i>
+                        <h4 class="sm:text-3xl text-1xl font-bold capitalize mt-4">facebook</h4>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+            
+        </section>
+        
+        <section class="courses my-5 sm:my-14">
+            <h3 class="uppercase text-3xl text-center my-5 sm:my-10 font-semibold">courses</h3>
+            <div class="auto-contrainer max-w-[1170px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 p-2 gap-5 box-border place-items-stretch">
+                
+                <div class="course-card rounded-md border-2 text-center shadow-lg p-2 cursor-pointer hover:scale-[1.03] duration-300 my-1">
+                    <img src="images/TCGTSU-Homepage-2.webp" class="rounded-md" alt="">
+                    <h3 class="capitalize font-semibold my-4 text-[1.4em] font-ffl1">the complete guide <br> to starting up</h3>
+                    <h5 class="capitalize my-4 text-[16px]">starts at <i class="fa-solid fa-indian-rupee-sign text-[15px]"></i>1,399</h5>
+                    <button class="p-2 capitalize rounded-md text-white text-1xl bg-blue-600 w-full">enroll</button>
+                </div>
+                
+                <div class="course-card rounded-md border-2 text-center shadow-lg p-2 cursor-pointer hover:scale-[1.03] duration-300 my-1">
+                    <img src="images/TCOYT_-Homepage-2.webp" class="rounded-md" alt="">
+                    <h3 class="capitalize font-semibold my-4 text-[1.4em] font-ffl1">take charge of <br> your time</h3>
+                    <h5 class="capitalize my-4 text-[16px]">starts at <i class="fa-solid fa-indian-rupee-sign text-[15px]"></i>299</h5>
+                    <button class="p-2 capitalize rounded-md text-white text-1xl bg-blue-600 w-full">enroll</button>
+                </div>
+                
+                <div class="course-card rounded-md border-2 text-center shadow-lg p-2 cursor-pointer hover:scale-[1.03] duration-300 my-1">
+                    <img src="images/TUGTEC_-Homepage-2.webp" class="rounded-md" alt="">
+                    <h3 class="capitalize my-4 font-semibold text-[1.4em] font-ffl1">the ultimate guide <br> to effective communication</h3>
+                    <h5 class="capitalize my-4 text-[16px]">starts at <i class="fa-solid fa-indian-rupee-sign text-[15px]"></i>549</h5>
+                    <button class="p-2 capitalize rounded-md text-white text-1xl bg-blue-600 w-full">enroll</button>
+                </div>
+                
+                <div class="course-card rounded-md border-2 text-center shadow-lg p-2 cursor-pointer hover:scale-[1.03] duration-300 my-1">
+                    <img src="images/HTY_-Homepage-2.webp" class="rounded-md" alt="">
+                    <h3 class="capitalize my-4 font-semibold text-[1.4em] font-ffl1">how to youtube</h3>
+                    <h5 class="capitalize my-4 text-[16px]">starts at <i class="fa-solid fa-indian-rupee-sign text-[15px]"></i>1,299</h5>
+                    <button class="p-2 capitalize rounded-md text-white text-1xl bg-blue-600 w-full">enroll</button>
+                </div>
+                
+                <div class="course-card rounded-md border-2 text-center shadow-lg p-2 cursor-pointer hover:scale-[1.03] duration-300 my-1">
+                    <img src="images/HTI_-Homepage-2-1.webp" class="rounded-md" alt="">
+                    <h3 class="capitalize my-4 font-semibold text-[1.4em] font-ffl1">how to instagram</h3>
+                    <h5 class="capitalize my-4 text-[16px]">starts at <i class="fa-solid fa-indian-rupee-sign text-[15px]"></i>1,449</h5>
+                    <button class="p-2 capitalize rounded-md text-white text-1xl bg-blue-600 w-full">enroll</button>
+                </div>
+                
+                <div class="course-card rounded-md border-2 text-center shadow-lg p-2 cursor-pointer hover:scale-[1.03] duration-300 my-1">
+                    <img src="images/Thumbnail-HTL_Homepage-2.webp" class="rounded-md" alt="">
+                    <h3 class="capitalize my-4 font-semibold text-[1.4em] font-ffl1">how to linkedIn</h3>
+                    <h5 class="capitalize my-4 text-[16px]">starts at <i class="fa-solid fa-indian-rupee-sign text-[15px]"></i>1,959</h5>
+                    <button class="p-2 capitalize rounded-md text-white text-1xl bg-blue-600 w-full">enroll</button>
+                </div>
+                
+                <div class="course-card rounded-md border-2 text-center shadow-lg p-2 cursor-pointer hover:scale-[1.03] duration-300 my-1">
+                    <img src="images/Thumbnail-MWAC-Homepage-2.webp" class="rounded-md" alt="">
+                    <h3 class="capitalize my-4 font-semibold text-[1.4em] font-ffl1">make writing a career</h3>
+                    <h5 class="capitalize my-4 text-[16px]">starts at <i class="fa-solid fa-indian-rupee-sign text-[15px]"></i>1,589</h5>
+                    <button class="p-2 capitalize rounded-md text-white text-1xl bg-blue-600 w-full">enroll</button>
+                </div>
+                
+                <div class="course-card rounded-md border-2 text-center shadow-lg p-2 cursor-pointer hover:scale-[1.03] duration-300 my-1">
+                    <img src="images/TCOYM_homepage-2.webp" class="rounded-md" alt="">
+                    <h3 class="capitalize my-4 font-semibold text-[1.4em] font-ffl1">take charge of your money</h3>
+                    <h5 class="capitalize my-4 text-[16px]">starts at <i class="fa-solid fa-indian-rupee-sign text-[15px]"></i>759</h5>
+                    <button class="p-2 capitalize rounded-md text-white text-1xl bg-blue-600 w-full">enroll</button>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section class="epic-books md:my-14 my-5">
+            <div class="auto-container max-w-[1170px] mx-auto">
+                <div class="book-row flex flex-col md:flex-row items-center justify-between my-2 md:my-10">
+                    <div class="book-img basis-6/12 order-2 md:order-1">
+                        <img src="images/1659009279-1-1.webp" class="h-[250px] md:h-[500px] mt-20" alt="">
+                    </div>
+                    <div class="book-info text-center md:text-start basis-6/12 order-1 md:order-2">
+                        <h3 class="text-center sm:text-start text-[30px] md:text-[40px] font-bold uppercase ">do epic shit</h3>
+                        <p class="text-[15px] md:text-[18px] px-3 md:px-0 text-center md:text-start pt-3">This is a book to be read, and re-read, a book whose lines you will underline and think about again and again, a book you will give your family and your friends and strangers.</p>
+                        <img src="images/Logo_Black_Vector.webp" class="w-[175px] mx-auto md:m-0 pt-3" alt="">
+                        <h6 class="text-[17px] font-bold py-5">ankur warikoo</h6>
+                        <button class="py-2 lg:py-4 lg:px-10 px-5 mt-5 uppercase bg-[gold] rounded-md text-white text-[22px] md:text-[30px] hover:text-[gold] hover:bg-black duration-300"><i class="fa-solid fa-chevron-right text-[15px] md:text-[25px] font-bold"></i> get your copy</button>
+                    </div>
+                </div>
+                
+                
+                <div class="book-row flex flex-col md:flex-row items-center justify-between my-2 md:my-10">
+                    <div class="book-info text-center md:text-start basis-6/12 order-2 md:order-1">
+                        <h3 class="text-center sm:text-start text-[30px] md:text-[40px] font-bold uppercase ">get epic shit done</h3>
+                        <p class="text-[15px] md:text-[18px] px-3 md:px-0 text-center md:text-start pt-3">This is a book to be read, and re-read, a book whose lines you will underline and think about again and again, a book you will give your family and your friends and strangers.</p>
+                        <img src="images/Logo_Black_Vector.webp" class="w-[175px] mx-auto md:m-0 pt-3" alt="">
+                        <h6 class="text-[17px] font-bold py-5">ankur warikoo</h6>
+                        <button class="py-2 lg:py-4 lg:px-10 px-5 mt-5 uppercase bg-[gold] rounded-md text-white text-[22px] md:text-[30px] hover:text-[gold] hover:bg-black duration-300"><i class="fa-solid fa-chevron-right text-[15px] md:text-[25px] font-bold"></i> get your copy</button>
+                    </div>
+                    
+                    <div class="book-img basis-6/12 order-1 md:order-2 mb-10 md:mb-0">
+                        <img src="images/Get-Epic-Shit-Done-Book-1.webp" class="h-[250px] md:h-[500px] mt-20" alt="">
+                    </div>
+                </div>
+                
+                <div class="book-row flex flex-col md:flex-row items-center justify-between my-2 md:my-10">
+                    <div class="book-img basis-6/12 order-2 md:order-1">
+                        <img src="images/mem.webp" class="h-[250px] md:h-[500px] mt-20" alt="">
+                    </div>
+                    
+                    <div class="book-info text-center md:text-start basis-6/12 order-1 md:order-2 mt-10 md:mt-0">
+                        <h3 class="text-center sm:text-start text-[30px] md:text-[40px] font-bold uppercase ">make epic money</h3>
+                        <p class="text-[15px] md:text-[18px] px-3 md:px-0 text-center md:text-start pt-3">Make Epic Money is the book that I wish I was given when I was young. Something that school, college, my family should have taught me but never did. So here I am, trying to fill in for them.</p>
+                        <img src="images/Logo_Black_Vector.webp" class="w-[175px] mx-auto md:m-0 pt-3" alt="">
+                        <h6 class="text-[17px] font-bold py-5">ankur warikoo</h6>
+                        <button class="py-2 lg:py-4 lg:px-10 px-5 mt-5 uppercase bg-[gold] rounded-md text-white text-[22px] md:text-[30px] hover:text-[gold] hover:bg-black duration-300"><i class="fa-solid fa-chevron-right text-[15px] md:text-[25px] font-bold"></i> get your copy</button>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+        
+        <section class="slider-main my-5 md:my-10 py-5 md:py-10 bg-blue-700">
+            <div class="auto-container max-w-[1170px] mx-auto text-center text-white">
+                <h3 class="font-bold text-[38px] capitalize">read my blog</h3>
+                <p class="py-2 text-[18px]">Read the latest articles from ankur warikoo.</p>
+                
+                <div class="wrapper">
+                    <div class="carousel max-w-[100%] mx-auto grid">
+                        
+                        <div class="card-main">
+                            <div class="card shadow-md border-[3px] border-slate-200 text-white text-center">
+                                <div class="card-body px-6 py-6">
+                                    <div class="card-content">
+                                        <h3 class="card-title capitalize text-[26px] font-[500] leading-7"><a href="#">should you be a good human</a></h3>
+                                        <div class="card-date capitalize text-[18px] font-semibold my-6">
+                                            <span>march 22, 2024 - no comment</span>
+                                        </div>
+                                        <div class="card-desc text-[18px]">
+                                            <p>
+                                                I recall during my first job, unable to understand why things functioned in a certain way, I asked my boss..
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                        
+                        <div class="card-main">
+                            <div class="card shadow-md border-[3px] border-slate-200 text-white text-center">
+                                <div class="card-body px-6 py-6">
+                                    <div class="card-content">
+                                        <h3 class="card-title capitalize text-[26px] font-[500] leading-7"><a href="#">how to protect your future</a></h3>
+                                        <div class="card-date capitalize text-[18px] font-semibold my-6">
+                                            <span>march 18, 2024 - no comment</span>
+                                        </div>
+                                        <div class="card-desc text-[18px]">
+                                            <p>
+                                                What did you do today? Learned something?Met someone interest your ideas? Or watched Netflix, ate junk...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                        
+                        <div class="card-main">
+                            <div class="card shadow-md border-[3px] border-slate-200 text-white text-center">
+                                <div class="card-body px-6 py-6">
+                                    <div class="card-content">
+                                        <h3 class="card-title capitalize text-[26px] font-[500] leading-7"><a href="#">when do we grow old</a></h3>
+                                        <div class="card-date capitalize text-[18px] font-semibold my-6">
+                                            <span>march 19, 2024 - no comment</span>
+                                        </div>
+                                        <div class="card-desc text-[18px]">
+                                            <p>
+                                                Is it simply upon hitting a certain number?Or perhaps before that? We grow old when we think the way we know about...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        
+                        <div class="card-main">
+                            <div class="card shadow-md border-[3px] border-slate-200 text-white text-center">
+                                <div class="card-body px-6 py-6">
+                                    <div class="card-content">
+                                        <h3 class="card-title capitalize text-[26px] font-[500] leading-7"><a href="#">whom should you trust</a></h3>
+                                        <div class="card-date capitalize text-[18px] font-semibold my-6">
+                                            <span>march 23, 2024 - no comment</span>
+                                        </div>
+                                        <div class="card-desc text-[18px]">
+                                            <p>
+                                                
+                                                Whom should you trust?Who deserves to have it?Who doesn’t? It’s a big thing, because maybe you’ve been betrayed.Maybe your heart...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                        
+                        <div class="card-main">
+                            <div class="card shadow-md border-[3px] border-slate-200 text-white text-center">
+                                <div class="card-body px-6 py-6">
+                                    <div class="card-content">
+                                        <h3 class="card-title capitalize text-[26px] font-[500] leading-7"><a href="#">wrong decision is not the problem</a></h3>
+                                        <div class="card-date capitalize text-[18px] font-semibold my-6">
+                                            <span>march 21, 2024 - no comment</span>
+                                        </div>
+                                        <div class="card-desc text-[18px]">
+                                            <p>
+                                                Are you afraid of making decisions?What to what to eat, career choice, who to marry, whether to marry ...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                        
+                        <div class="card-main">
+                            <div class="card shadow-md border-[3px] border-slate-200 text-white text-center">
+                                <div class="card-body px-6 py-6">
+                                    <div class="card-content">
+                                        <h3 class="card-title capitalize text-[26px] font-[500] leading-7"><a href="#">did you fail today</a></h3>
+                                        <div class="card-date capitalize text-[18px] font-semibold my-6">
+                                            <span>march 20, 2024 - no comment</span>
+                                        </div>
+                                        <div class="card-desc text-[18px]">
+                                            <p>
+                                                
+                                                Sara Blakely is a tremendously successful businesswoman.&nbsp; Someone asked her, what do you attribute your success to? She said, “Every...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                
+                <button class="uppercase bg-white rounded-[5px] text-blue-900 border-2 py-[5px] px-6 border-white font-semibold text-[16px] hover:text-white hover:bg-[navy] duration-500">read all</button>
+                
+            </div>
+        </section>
+        
+        <section class="lots-companies my-8 md:my-10 py-4 md:py-4">
+            <div class="auto-container max-w-[800px] mx-auto text-center">
+                <h2 class="font-bold text-[25px] md:text-[45px] lg:text-[60px] leading-tight text-zinc-900 capitalize">connect with me for a <br> speaking engagement</h2>
+                <div class="comapniies-img mt-6">
+                    <img src="images/Frame-4-1.webp" alt="">
+                    <p class="font-bold text-[17px] px-2">Fill the form below to connect with me for a speaking engagement<br>at your company, school, college or at an event</p>
+                    <p class="px-2 mt-2 text-[15px] italic">I am usually booked out 4-6 weeks in advance, so please provide me with that flexibility.</p>
+                    
+                    <div class="twobtn mt-8 md:mt-14 flex justify-evenly max-w-[500px] mx-auto">
+                        <button class="px-5 md:px-12 py-[10px] rounded-3xl bg-blue-500 text-white uppercase font-semibold text-[16px] shadow-2xl">fill the form</button>
+                        <button class="px-5 md:px-12 py-[10px] rounded-3xl bg-gray-100 text-black uppercase font-semibold text-[16px] shadow-md">email me</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="py-10 bg-zinc-800">
+            <div class="auto-container max-w-[1170px] mx-auto grid grid-cols-2 gap-10 md:gap-0 md:grid-cols-4 text-white items-center">
+                <div class="footer-logo mx-auto md:mx-0">
+                    <img src="images/Logo_White_Vector.png" class="w-[220px]" alt="">
+                </div>
+                <div class="list-items mx-auto md:mx-0">
+                    <ul class="capitalize flex items-start flex-col justify-start">
+                        <li  class="mb-3">
+                            <i class="fa-solid fa-circle text-[6px] me-2 text-blue-500"></i><a href="#">my story</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-solid fa-circle text-[6px] me-2 text-blue-500"></i><a href="#">blog</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-solid fa-circle text-[6px] me-2 text-blue-500"></i><a href="#">contact</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-solid fa-circle text-[6px] me-2 text-blue-500"></i><a href="#">investing</a>
+                        </li>
+                        <li  class="mb-3"><i class="fa-solid fa-circle text-[6px] me-2 text-blue-500"></i><a href="#">public speaking</a></li>
+                    </ul>
+                </div>
+                
+                <div class="list-items mx-auto md:mx-0">
+                    <ul class="capitalize flex items-start flex-col justify-start">
+                        <li  class="mb-3">
+                            <i class="fa-solid fa-circle text-[6px] me-2 text-blue-500"></i><a href="#">my story</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-solid fa-circle text-[6px] me-2 text-blue-500"></i><a href="#">blog</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-solid fa-circle text-[6px] me-2 text-blue-500"></i><a href="#">contact</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-solid fa-circle text-[6px] me-2 text-blue-500"></i><a href="#">investing</a>
+                        </li>
+                        <li  class="mb-3"><i class="fa-solid fa-circle text-[6px] me-2 text-blue-500"></i><a href="#">public speaking</a></li>
+                    </ul>
+                </div>
+                
+                <div class="list-items mx-auto md:mx-0">
+                    <ul class="capitalize flex items-start flex-col justify-start">
+                        <li  class="mb-3">
+                            <i class="fa-solid fa-circle text-[6px] me-2 text-blue-500"></i><a href="#">my story</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-solid fa-circle text-[6px] me-2 text-blue-500"></i><a href="#">blog</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-solid fa-circle text-[6px] me-2 text-blue-500"></i><a href="#">contact</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fa-solid fa-circle text-[6px] me-2 text-blue-500"></i><a href="#">investing</a>
+                        </li>
+                        <li  class="mb-3"><i class="fa-solid fa-circle text-[6px] me-2 text-blue-500"></i><a href="#">public speaking</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        
+        <section class="copyright-bar text-center py-5 bg-zinc-900 text-slate-500 text-[14px] md:text-[17px] font-semibold">
+            Copyright Zaan Webveda Private Limited | All Rights Reserved || Designed by Hari.
+        </section> 
+    </main>
+    
+</body>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+<script src="./main.js"></script>
+</html>
